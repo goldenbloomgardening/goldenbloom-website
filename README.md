@@ -1,2 +1,2 @@
 goldenbloomgardeningserives
-frindly reliably gardening maintance in surrey
+friendly reliably gardening maintance in surrey
