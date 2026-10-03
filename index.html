@@ -164,7 +164,7 @@
       background: white;
       padding: 70px 7%;
       text-align: center;
-    }
+    display: grid;
 
     .photo-placeholder {
       max-width: 1100px;
@@ -174,7 +174,8 @@
         linear-gradient(rgba(16,29,54,0.18), rgba(16,29,54,0.18)),
         linear-gradient(135deg, #62755f, #b2b99e);
     display: flex;
-    
+    grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
       align-items: center;
       justify-content: center;
       border: 1px solid #e3d7b6;
@@ -384,7 +385,9 @@
       .benefits {
         grid-template-columns: 1fr;
       }
-
+.photo-placeholder {
+  grid-template-columns: 1fr;
+}
       .section-title {
         font-size: 33px;
       }
